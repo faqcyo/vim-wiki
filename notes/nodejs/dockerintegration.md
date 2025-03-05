@@ -30,6 +30,7 @@ Some commands to memorize:
 `COPY package*.json ./` copies the package.json file to the current working directory (/app).
 `RUN npm install` installs dependencies specified on the package.json file copied before.
 `COPY . .` copies all the files on the directory of the Dockerfile to the current working directory (/app)
+`COPY src /app/src` copies the contents of the directory src to the directory /app/src on the target
 `ENV PORT=8080` creates an environment variable that is exposed to the app.
 `EXPOSE 8080` makes the container listen on port 8080.
 `CMD [ "npm", "start" ]` tells the container how to run the application. There can only be one CMD command on the Dockerfile.

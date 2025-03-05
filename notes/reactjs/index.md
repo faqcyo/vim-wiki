@@ -3,3 +3,4 @@
 # ReactJS Notes
 
 [Introduction](introduction)
+[Building React App](build)
