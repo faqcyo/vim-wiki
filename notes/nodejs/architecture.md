@@ -9,6 +9,7 @@ Second Layer: Service
 Third Layer: Model
 
 [Clean Architecture in Node.js](/notes/conferences/3)
+[Node Clean Architecture Deep Dive](/notes/conferences/4)
 
 Topics to take into account:
 
@@ -47,3 +48,5 @@ The service contains the business logic to manage this data and return it to the
 The service can communicate with the repository.
 
 In essence, controllers handle the "how" of dealing with HTTP requests, while services handle the "what" and "why" of your business logic
+
+
